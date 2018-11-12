@@ -4,7 +4,7 @@ include ../gcloud.Makefile
 include ../var.Makefile
 
 
-TAG ?= 6.3
+TAG ?= 5.3
 $(info ---- TAG = $(TAG))
 
 APP_DEPLOYER_IMAGE ?= $(REGISTRY)/elasticsearch/deployer:$(TAG)
